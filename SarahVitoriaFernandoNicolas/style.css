@@ -1,0 +1,31 @@
+
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        
+        #header {
+            padding: 20px;
+            background-color: white;
+            color: black;
+            font-size: 24px;
+        }
+
+        #game-images {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .game {
+            margin: 10px;
+        }
+
+        .game img {
+            width: 200px;
+            height: 200px;
+            border: 2px solid white;
+        }
